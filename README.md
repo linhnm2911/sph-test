@@ -17,7 +17,7 @@
         "source": {
           "type": "git",
           "url": "https://github.com/linhnm2911/sph-test.git",
-          "reference": "b0474a3b86875fb39f7ece8ddcc03f9a81b84f1e"
+          "reference": "f4ed204c7dab89be4b96d5b9d9d571f84b08866e"
         },
         "require": {
           "bacon/bacon-qr-code": "^2.0",
