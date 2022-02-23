@@ -1,0 +1,19 @@
+{
+    "name": "drupal/jp_product",
+    "type": "drupal-module",
+    "description": "Provides functionality for Jugaad Patches product.",
+    "keywords": [
+    ],
+    "authors": [
+      {
+        "name": "Linh Nguyen Manh",
+        "role": "Drupal developer"
+      }
+    ],
+    "homepage": "https://www.drupal.org/u/linhnm",
+    "minimum-stability": "dev",
+    "require": {
+      "bacon/bacon-qr-code": "^2.0",
+      "calcinai/php-imagick": "^0.1.2"
+    }
+}

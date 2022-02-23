@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.qr_code
+label: 'QR Code'
+targetEntityType: node
+cache: true

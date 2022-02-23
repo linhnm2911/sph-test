@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Product
+type: product
+description: 'Product of Jugaad Patches'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

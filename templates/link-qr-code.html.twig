@@ -1,0 +1,13 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display link to QR code field.
+ *
+ */
+#}
+
+<fieldset>
+  <legend>{{ label }}</legend>
+  <p class="title">{{ description }}</p>
+  <image src="data:image/png;base64,{{ qr_code }}" />
+</fieldset>

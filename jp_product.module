@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file
+ * Contains jp_product.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function jp_product_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the jp_product module.
+    case 'help.page.jp_product':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Handler for Jugaad Patches product') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function jp_product_theme() {
+  return [
+    'link_qr_code' => [
+      'variables' => [
+        'qr_code' => NULL,
+        'label' => NULL,
+        'description' => NULL,
+      ],
+    ],
+  ];
+}

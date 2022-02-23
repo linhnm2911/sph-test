@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.qr_code
+    - field.field.node.product.body
+    - field.field.node.product.field_link_app_purchase
+    - node.type.product
+  module:
+    - jp_product
+    - user
+id: node.product.qr_code
+targetEntityType: node
+bundle: product
+mode: qr_code
+content:
+  field_link_app_purchase:
+    type: jp_link_qr_code_formatter
+    label: hidden
+    settings:
+      label: 'Scan here on your mobile'
+      description: 'To purchase this product on our app to avail exclusive app-only'
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_media_image: true
+  links: true
